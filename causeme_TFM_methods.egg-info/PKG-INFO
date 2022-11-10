@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: causeme-TFM-methods
+Version: 0.0.1a1
+Summary: Methods for causal discovery
+Home-page: https://github.com/sosanzma/causme-methods-tfm
+Author: Manel Soler
+Author-email: sosanzma@alumni.uv.es
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# CauseMe Methods
+
+A collection of  causal discovery methods for time series.
+Methods implementation is compatible with CauseMe platform.
+
+
+## Available Methods
+
+- LSTM_method
+- NN_method
+
+## Template
+
+This repository gives also a fully working template or skeleton
+for new [CauseMe](https://causeme.uv.es) python method(s).
+
+```
+├── .pre-commit-config.yaml
+├── .gitignore
+├── causemesplmthds
+│   ├── __init__.py
+│   ├── LSTM_method.py
+│   └── NN_method.py
+├── dev_requirements.txt
+├── LICENSE.txt
+├── methods.json
+├── pyproject.toml
+├── README.md
+├── requirements.txt
+├── setup.cfg
+└── tests
+    ├── __init__.py
+    └── test_method.py
+```
+
+

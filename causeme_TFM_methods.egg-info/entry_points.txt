@@ -1,0 +1,3 @@
+[causeme.methods]
+LSTM_method = causemesplmthds:LSTM_method
+NN_method = causemesplmthds:NN_method
