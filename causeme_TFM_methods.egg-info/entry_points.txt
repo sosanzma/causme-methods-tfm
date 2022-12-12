@@ -1,4 +1,4 @@
 [causeme.methods]
-LSTM_method = causemesplmthds:lstm_cause
-NN_method = causemesplmthds:nn_cause2
-elasnet_method = causemeplmthds:var_elasnet
+LSTM_method = tfmmethods:lstm_cause
+NN_method = tfmmethods:nn_cause2
+elasnet_method = tfmmethods:var_elasnet
