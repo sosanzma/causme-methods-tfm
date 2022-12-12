@@ -18,7 +18,7 @@ for new [CauseMe](https://causeme.uv.es) python method(s).
 ```
 ├── .pre-commit-config.yaml
 ├── .gitignore
-├── causemesplmthds
+├── tfmmethods
 │   ├── __init__.py
 │   ├── LSTM_method.py
 │   ├── NN_method.py
