@@ -21,7 +21,7 @@ for new [CauseMe](https://causeme.uv.es) python method(s).
 ├── causemesplmthds
 │   ├── __init__.py
 │   ├── LSTM_method.py
-│   └── NN_method.py
+│   ├── NN_method.py
 |   └── elasnet_method.py
 ├── dev_requirements.txt
 ├── LICENSE.txt
