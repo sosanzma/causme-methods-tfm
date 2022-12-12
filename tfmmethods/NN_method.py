@@ -24,7 +24,7 @@ def MLP_(
     activation : str = "relu",
     o_activation : str = "linear",
     loss : str = "mse") -> keras.engine.functional.Functional  :
-    """
+    """    
     Parameters
     ----------
     Dense_layers : int
@@ -84,6 +84,7 @@ def nn_cause2(data: np.ndarray,
                loss : str = "mse"
                ) -> np.ndarray :
         '''
+        Author : Manel Soler Sanz
         Granger causality with neural network for multi-dimensional time series
         Parameters:
         -----------

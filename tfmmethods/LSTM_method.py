@@ -128,6 +128,19 @@ def lstm_cause(train_df,
                patience : int = 8,
                noise : float = 0.05) -> np.ndarray: 
     
+    '''
+    Author : Manel Soler Sanz
+    Granger causality with LSTM network for multi-dimensional time series
+    Parameters:
+    -----------
+    data - input data (TxN)
+    
+    
+    Returns:
+    ----------
+    coeff: coefficient matrix A. The ij-th entry in A represents the causal
+    influence from j-th variable to the i-th variable.
+    '''
     assert maxlags > 0
   
     T, N = train_df.shape

@@ -10,4 +10,5 @@ causeme_TFM_methods.egg-info/requires.txt
 causeme_TFM_methods.egg-info/top_level.txt
 causemesplmthds/LSTM_method.py
 causemesplmthds/NN_method.py
+causemesplmthds/elasnet_method.py
 causemesplmthds/__init__.py
