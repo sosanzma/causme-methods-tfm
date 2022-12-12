@@ -18,8 +18,20 @@ def var_elasnet(data: np.ndarray,
                     max_iter : int = 10000,
                     tol = 1e-2,
                     graph : bool = False,
-                    significance : int = 1):
-
+                    significance : int = 1) -> np.ndarray:
+    '''
+    Author : Manel Soler Sanz
+    Granger causality with Elastic net regression for multi-dimensional time series
+    Parameters:
+    -----------
+    data - input data (TxN)
+    
+    
+    Returns:
+    ----------
+    coeff: coefficient matrix A. The ij-th entry in A represents the causal
+    influence from j-th variable to the i-th variable.
+    '''
         # check maxlags
     assert maxlags > 0        
 
