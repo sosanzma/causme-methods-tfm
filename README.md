@@ -1,14 +1,21 @@
 # CauseMe Methods
 
-A collection of  causal discovery methods for time series.
-Methods implementation is compatible with CauseMe platform.
+A collection of advanced causal discovery methods for time series analysis. This repository contains implementations of various techniques in deep learning and machine learning for detecting causal relationships. All methods are compatible with the CauseMe platform, facilitating seamless integration and evaluation.
 
+
+
+## Features
+
+- **Deep Learning & Machine Learning Techniques:** Implementations of state-of-the-art methods for causal discovery.
+- **Time Series Analysis:** Specialized in detecting causal relationships within time series data.
+- **CauseMe Platform Compatibility:** Methods are designed to work smoothly with the CauseMe platform for easy evaluation and benchmarking.
 
 ## Available Methods
 
-- LSTM_method
-- NN_method
-- Elasnet_method
+- **LSTM_method:** Utilizes Long Short-Term Memory (LSTM) networks for capturing temporal dependencies and discovering causal relationships.
+- **NN_method:** Applies neural networks for causal inference, leveraging their powerful pattern recognition capabilities.
+- **Elasnet_method:** Implements Elastic Net regression for causal discovery, combining the strengths of both LASSO and Ridge regression techniques.
+
 
 ## Template
 
